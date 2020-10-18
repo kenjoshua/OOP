@@ -1,79 +1,49 @@
-﻿using System;
-
-namespace dog1
+﻿namespace Quiz1_Console
 {
-
-    public class Animal
+    class Animal
     {
-        public string Aname { get; set; }
-        private void name()
+        #region Attributes
+        string name;
+        string diet;
+        #endregion
+
+        #region Constructor
+        public Animal()
         {
 
-            this.Aname = Console.ReadLine();
+        }
+        public Animal(string name)
+        {
+            this.name = name;
+        }
+        #endregion
+
+        #region Methods
+        public void SetDiet(string food) { this.diet = food; }
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set { name = value; }
+        }
+
+
+        public string Eat()
+        {
+            return $"{name} eats {diet}";
+        }
+
+        public void Sleep()
+        {
 
         }
 
-        public void eat()
+        public void Drink()
         {
-            Console.WriteLine(Aname + " wants to eat [h]otdog, [s]teak, [c]hicken, [p]oison");
-            string x = Console.ReadLine();
 
-            if (x == "h")
-            {
-                Console.WriteLine(Aname + " eat the hotdog yum yun yummy");
-            }
-            if (x == "s")
-
-            {
-                Console.WriteLine(Aname + " eat the steak yum yun yummy");
-            }
-            if (x == "c")
-
-            {
-                Console.WriteLine(Aname + " eat the chicken yum yun yummy");
-            }
-            if (x == "p")
-
-            {
-                Console.WriteLine(Aname + " eat the poison " + Aname + " is dead idiot");
-            }
         }
-        public void sleep()
-        {
-            Console.WriteLine(Aname + " starting to sleep zzzzzz.");
-        }
-
-        public void drink()
-        {
-            Console.WriteLine(Aname + " starting to drink");
-        }
-
-        class Program
-        {
-            static void Main(string[] args)
-            {
-                Animal animal = new Animal();
-
-                Console.Write("your animal name: ");
-                animal.Aname = Console.ReadLine();
-
-
-                Console.WriteLine("welcome " + animal.Aname + " wants to? ([e]at, [s]leep, [d]rink)");
-                string a = Console.ReadLine();
-
-                if (a == "e")
-                {
-                    animal.eat();
-                }
-                else if (a == "s")
-                {
-                    animal.sleep();
-                }
-                else if (a == "d")
-                {
-                    animal.drink();
-                }
-            }
-        }
+        #endregion
     }
 }
