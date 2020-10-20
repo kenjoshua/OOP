@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\Date of Birth\\Date of Birth\\Date of Birth.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\OOP\\Date of Birth\\Date of Birth\\Date of Birth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\Date of Birth\\Date of Birth\\Date of Birth.csproj": {
+    "C:\\Users\\pc\\source\\repos\\OOP\\Date of Birth\\Date of Birth\\Date of Birth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Date of Birth\\Date of Birth\\Date of Birth.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\OOP\\Date of Birth\\Date of Birth\\Date of Birth.csproj",
         "projectName": "Date of Birth",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\Date of Birth\\Date of Birth\\Date of Birth.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\OOP\\Date of Birth\\Date of Birth\\Date of Birth.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\Date of Birth\\Date of Birth\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\OOP\\Date of Birth\\Date of Birth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
