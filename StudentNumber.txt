@@ -1,0 +1,15 @@
+namespace StudentNumber
+{
+    class Student
+    {
+        string studentNumber;
+
+        public Student(string fName, string lName, string mName, string nameSuffix, string studentNumber) 
+        {
+            this.studentNumber = studentNumber;
+
+        }
+
+
+    }
+}

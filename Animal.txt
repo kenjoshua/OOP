@@ -1,0 +1,43 @@
+using System;
+
+namespace Animal
+{
+    class Animal
+    {
+        public string AnimalName { get; set; }
+        public string Diet { get; set; }
+        public void newName()
+        {
+            Console.Write("Name of the Animal");
+            this.AnimalName = Console.ReadLine();
+        }
+
+        public void eat()
+        {
+            string food = "Animal Food";
+            Console.WriteLine("Your Animal: " + this.AnimalName + " Eat");
+        }
+
+        public void drink()
+        {
+            string water = "Water";
+            Console.WriteLine("Your Animal: " + this.AnimalName + " drank" + water);
+        }
+
+        public void sleep()
+        {
+            Console.WriteLine("Your Animal: " + this.AnimalName + " sleeps");
+        }
+
+
+
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
